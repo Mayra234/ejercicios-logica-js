@@ -1,5 +1,5 @@
-function getMonth(day) {
-  switch (day) {
+function getMonth(number) {
+  switch (number) {
     case 1:
       return "Enero";
     case 2:
