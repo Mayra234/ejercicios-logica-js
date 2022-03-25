@@ -6,4 +6,4 @@ function division(dividend, divisor) {
   }
 }
 
-console.log(divisor(15, 8));
+console.log(division(15, 8));
