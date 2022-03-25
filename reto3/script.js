@@ -1,45 +1,32 @@
 function getMonth(day) {
   switch (day) {
     case 1:
-      console.log("Enero");
-      break;
+      return "Enero";
     case 2:
-      console.log("Febrero");
-      break;
+      return "Febrero";
     case 3:
-      console.log("Marzo");
-      break;
+      return "Marzo";
     case 4:
-      console.log("Abril");
-      break;
+      return "Abril";
     case 5:
-      console.log("Mayo");
-      break;
+      return "Mayo";
     case 6:
-      console.log("Junio");
-      break;
+      return "Junio";
     case 7:
-      console.log("Julio");
-      break;
+      return "Julio";
     case 8:
-      console.log("Agosto");
-      break;
+      return "Agosto";
     case 9:
-      console.log("Septiembre");
-      break;
+      return "Septiembre";
     case 10:
-      console.log("Octubre");
-      break;
+      return "Octubre";
     case 11:
-      console.log("Noviembre");
-      break;
+      return "Noviembre";
     case 12:
-      console.log("Diciembre");
-      break;
+      return "Diciembre";
 
     default:
-      console.log("Mes invalido");
-      break;
+      return "Mes invalido";
   }
 }
 

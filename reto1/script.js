@@ -1,5 +1,5 @@
-function operation(a, b) {
+function product(a, b) {
   return a * b;
 }
 
-console.log(operation(7, 5));
+console.log(product(7, 5));
