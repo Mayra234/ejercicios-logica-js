@@ -1,8 +1,8 @@
-function determineNumber(number) {
+function isEvenOrOdd(number) {
   if (number % 2 == 0) {
     return "Es par";
   } else {
     return "Es impar";
   }
 }
-console.log(determineNumber(1));
+console.log(isEvenOrOdd(1));
