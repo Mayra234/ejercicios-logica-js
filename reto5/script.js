@@ -1,6 +1,6 @@
-function countString(a) {
+function countWords(a) {
   const count = a.split(" ");
   return count.length;
 }
 
-console.log(countString("Mayra Alejandra Diavanera"));
+console.log(countWords("Mayra Alejandra Diavanera"));
