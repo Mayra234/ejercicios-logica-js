@@ -1,4 +1,7 @@
-function filterNumber(names, world) {
-  names.filter(nam);
+function filterNumber(n, world) {
+  n.filter((name) => {
+    console.log(name.match(world));
+  });
 }
-// terminar
+const names = ["luisa", "carla", "mariana", "roberta"];
+console.log(filterNumber(names, "sa"));

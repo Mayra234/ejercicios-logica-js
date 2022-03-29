@@ -1,8 +1,5 @@
 function removeVowels(a) {
-  a.split("a", "e", "i", "o", "u");
-  const e = a.join("");
+  return (a = a.replace(/[aeiouAEIOU]/g, ""));
 }
 
 console.log(removeVowels("Mayra Alejandra"));
-
-// terminar
