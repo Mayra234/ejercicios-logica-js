@@ -1,5 +1,9 @@
-function calculateRadius(radius) {
-  const area = Math.PI * Math.pow(radius, 2);
-  console.log(area);
+function calcCircleArea(radius) {
+  return Math.PI * Math.pow(radius, 2);
 }
-calculateRadius(5);
+
+function calcCylinderVolume(radius, height) {
+  return calcCircleArea(radius) * height;
+}
+
+console.log(calcCircleArea(5));

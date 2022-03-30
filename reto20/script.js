@@ -1,6 +1,4 @@
-function reverseNumbers(number) {
-  const array = number.split("");
-  array.reverse();
-  console.log(array.join(""));
+function reverseNumber(number) {
+  return String(number).split("").reverse().join("");
 }
-reverseNumbers("78956");
+reverseNumber(78956);

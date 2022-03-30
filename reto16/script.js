@@ -1,4 +1,4 @@
-function dollarOfPeso(dollar) {
-  return dollar * 3800;
+function dollarsToPesos(dollars) {
+  return dollars * 3800;
 }
-console.log(dollarOfPeso(8));
+console.log(dollarsToPesos(2)); // 7600

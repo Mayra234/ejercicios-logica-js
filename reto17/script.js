@@ -1,6 +1,5 @@
-function listNames() {
-  const names = ["rosa", "luna", "maria", "andres"];
-  console.log(names.sort());
+function sortAlphabetically(array) {
+  return array.sort();
 }
 
-listNames();
+console.log(sortAlphabetically(["rosa", "luna", "maria", "andres"]));
