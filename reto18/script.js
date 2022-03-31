@@ -1,5 +1,4 @@
-function listPrices() {
-  let prices = [700, 200, 1500, 8500, 750];
+function sortPricesAsc(prices) {
   return prices.sort((a, b) => a - b);
 }
-console.log(listPrices());
+console.log(sortPricesAsc([700, 200, 1500, 8500, 750]));

@@ -1,5 +1,4 @@
-function calculateRadius(radius) {
-  const area = Math.PI * Math.pow(radius, 2);
-  console.log(area);
+function calculateAreaCircle(radius) {
+  return Math.PI * Math.pow(radius, 2);
 }
-calculateRadius(5);
+console.log(calculateRadius(5));

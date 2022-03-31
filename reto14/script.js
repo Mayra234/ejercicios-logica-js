@@ -1,13 +1,4 @@
-function calculateDogAge(ageHuman) {
-  let sum = 7;
-  if (ageHuman == 1) {
-    console.log("¡Tu perro tiene " + sum * ageHuman + " años de perro!");
-  } else {
-    sum = 0;
-    for (let i = 0; i < ageHuman; i += 7) {
-      sum += i;
-    }
-    console.log("¡Tu perro tiene " + sum * ageHuman + " años de perro!");
-  }
+function calculateDogAge(age) {
+  return `Tu perro tiene ${age * 7} años en años de perro`;
 }
-calculateDogAge(10);
+console.log(calculateDogAge(10));

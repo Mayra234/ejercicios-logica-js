@@ -1,5 +1,4 @@
-function converterCelsius(celsius) {
-  const fahrenheit = celsius * 1.8 + 32;
-  return fahrenheit + "°F";
+function convertCelsiusToFahrenheit(celsius) {
+  return celsius * 1.8 + 32;
 }
-console.log(converterCelsius(8));
+console.log(convertCelsiusToFahrenheit(8));

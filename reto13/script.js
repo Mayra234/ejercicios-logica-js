@@ -1,5 +1,4 @@
 function calculateAreaSquare(side) {
-  const result = Math.pow(side, 2);
-  console.log(result);
+  return Math.pow(side, 2);
 }
-calculateAreaSquare(9);
+console.log(calculateAreaSquare(9));

@@ -1,8 +1,26 @@
 function countUniqueVowel(text) {
-  let regexp = new RegExp("[aeiouAEIOU]g");
-  const result = text.replace(regexp, "").length;
-  if (result > 1) {
-    console.log(result);
-  }
+  const array = text.toLowerCase().split("");
+  const vowels = {
+    a: "a",
+    e: "e",
+    i: "i",
+    o: "o",
+    u: "u",
+    á: "a",
+    é: "e",
+    í: "i",
+    ó: "o",
+    ú: "u",
+  };
+  const uniqueVowels = [];
+
+  array.forEach((character) => {
+    if (vowels[character] && !uniqueVowels.includes(vowels[character])) {
+      uniqueVowels.push(character);
+    }
+  });
+
+  return uniqueVowels.length;
 }
-countUniqueVowel("hiA");
+
+const result = countUniqueVowel("HolA mundo cÓmo estás");

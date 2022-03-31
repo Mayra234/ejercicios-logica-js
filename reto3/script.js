@@ -30,4 +30,4 @@ function getMonth(number) {
   }
 }
 
-getMonth(45);
+console.log(getMonth(45));
