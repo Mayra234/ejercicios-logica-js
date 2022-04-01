@@ -24,3 +24,6 @@ function countUniqueVowel(text) {
 }
 
 const result = countUniqueVowel("HolA mundo cÓmo estás");
+const result2 = countUniqueVowel("MurcIelAgo");
+console.log(result);
+console.log(result2);

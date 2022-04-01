@@ -1,4 +1,4 @@
-function pesoOfDollar(peso) {
-  return (peso / 3800).toFixed(2);
+function pesosToDollars(pesos) {
+  return (pesos / 3800).toFixed(2);
 }
-console.log(pesoOfDollar(7800));
+console.log(pesosToDollars(7800));

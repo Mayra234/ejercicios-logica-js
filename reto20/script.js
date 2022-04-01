@@ -1,4 +1,4 @@
-function reverseNumbers(number) {
-  return number.split("").reverse().join("");
+function reverseNumber(number) {
+  return String(number).split("").reverse().join("");
 }
-console.log(reverseNumbers("78956"));
+console.log(reverseNumber(78956));
